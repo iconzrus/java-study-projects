@@ -1,0 +1,16 @@
+bot:
+  name: <Chatik>
+  token: 6175491285:AAFWlNvtLgv4FE7hcPoMVgshgtVhVH5QM8s
+  text:
+    model: gpt-3.5-turbo
+    messages: [ { role: "user", content: prompt } ]
+    content: "Hello!"
+    temperature: 0.7
+    max-tokens: 500
+    top-p: 1
+    frequency-penalty: 0
+    presence-penalty: 0
+api:
+  token: Bearer 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
+  url:
+    completions: https://api.openai.com/v1/chat/completions
